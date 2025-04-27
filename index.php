@@ -5,12 +5,9 @@ class Car {
 }
 
 
-$bmw = new Car;
-
-$bmw->name = 'BMW';
+$bmw = new Car();
 
 
-echo $bmw->name = 'BMW';
 
 
 ?>
