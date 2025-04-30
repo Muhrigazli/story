@@ -7,9 +7,10 @@ class Database
     public $username = "username";
     public $password = "password";
 
-    public function __construct($servername, $username, $password)
+    public function __construct($servername, $database, $username, $password)
     {
         $this->servername = $servername;
+        $this->database = $database;
         $this->username = $username;
         $this->password = $password;
 
